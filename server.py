@@ -76,8 +76,7 @@ pkey=pickle.loads(rmsg)
 #print("public key of other is :",pkey[0])
 # 2: Main Root GUI
 root = Tk()
-bgimage2 = PhotoImage(file ="images.png")
-Label(root,image=bgimage2).place(relwidth=1,relheight=1)
+Label(root).place(relwidth=1,relheight=1)
 # Scrollbar:
 scrollbar = Scrollbar(root)
 scrollbar.pack(side=RIGHT, fill=Y)
