@@ -50,8 +50,6 @@ def recv():
 # Client GUI
 # 1: Input Root GUI
 input_root = Tk()
-bgimage = PhotoImage(file ="images.png")
-Label(input_root,image=bgimage).place(relwidth=1,relheight=1)
 edit_text_ip = Entry()
 edit_text_port = Entry()
 ip_label = Label(input_root, text="Enter Server IP")
@@ -79,8 +77,6 @@ pkey=pickle.loads(rmsg)
 client.send(msg)
 # 2: Main Root GUI
 root = Tk()
-bgimage2 = PhotoImage(file ="images.png")
-Label(root,image=bgimage2).place(relwidth=1,relheight=1)
 # Scrollbar:
 scrollbar = Scrollbar(root)
 scrollbar.pack(side=RIGHT, fill=Y)
