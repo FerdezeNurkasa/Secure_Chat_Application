@@ -66,7 +66,7 @@ The `rsa.py` script includes functions to generate RSA key pairs, encrypt messag
 python client.py
 ```
 
-2. Enter your name, server IP, and port in the GUI.
+2. Enter your name in the console, server IP and port in the GUI.
 3. Use the GUI to send and receive messages.
 
 #### Code Overview
