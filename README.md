@@ -13,7 +13,7 @@ This project implements a basic chat application using RSA encryption for secure
   - [Client Script](#client-script)
   - [Server Script](#server-script)
 - [Contributors](#contributors)
-- [License](#license)
+
 
 ## Introduction
 
