@@ -1,8 +1,6 @@
 from __future__ import unicode_literals
 from math import sqrt
-import random
 import sympy
-import time
 import binascii
 
 def gcd(a, b):
